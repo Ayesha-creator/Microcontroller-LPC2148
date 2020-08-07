@@ -29,5 +29,15 @@ IOxPIN is GPIO port pin value register. This register is used to read the curren
 ### IOxSET
 IOxSET is GPIO output set register. This register is commonly used in conjunction with IOxCLR register described below. Writing ones to this register sets (output high) corresponding port pins, while writing zeros has no effect.
 
+|Values|	IOSET|
+|------|-------|
+|0 |No effect|
+|1 | Sets High on Pin|
+
 ### IOxCLR
 IOxCLR is GPIO output clear register. As mentioned above, this register is used in conjunction with IOxSET. Writing ones to this register clears (output low) corresponding port pins, while writing zeros has no effect.
+
+|Values|	IOSET|
+|------|-------|
+|0 |No effect|
+|1 | Sets High on Pin|
