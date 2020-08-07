@@ -40,4 +40,4 @@ IOxCLR is GPIO output clear register. As mentioned above, this register is used 
 |Values|	IOSET|
 |------|-------|
 |0 |No effect|
-|1 | Sets High on Pin|
+|1 | Sets low on Pin|
