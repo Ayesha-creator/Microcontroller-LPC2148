@@ -37,7 +37,7 @@ IOxSET is GPIO output set register. This register is commonly used in conjunctio
 ### IOxCLR
 IOxCLR is GPIO output clear register. As mentioned above, this register is used in conjunction with IOxSET. Writing ones to this register clears (output low) corresponding port pins, while writing zeros has no effect.
 
-|Values|	IOSET|
+|Values|	IOCLR|
 |------|-------|
 |0 |No effect|
 |1 | Sets low on Pin|
