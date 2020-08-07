@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "led traffic.o" --strict --scatter "LED TRAFFIC.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\LED TRAFFIC.map" -o "LED TRAFFIC.axf"

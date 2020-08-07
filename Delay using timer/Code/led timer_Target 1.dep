@@ -1,0 +1,8 @@
+Dependencies for Project 'led timer', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4F5858F0)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\led timer.c)(0x5F2BFC2D)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips -o "led timer.o" --omf_browse "led timer.crf" --depend "led timer.d")
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x4F585AA4)
+F (.\LED Blinking2.c)(0x5F22B0E0)()
+F (.\LED Blinking3.c)(0x5F22B782)()
+F (.\LED TRAFFIC.c)(0x5F22DF14)()
+F (.\switch interface led.c)(0x5F25A4FA)()

@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'LED TRAFFIC.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"led traffic.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "led traffic.o" --strict --scatter "LED TRAFFIC.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\LED TRAFFIC.map" -o "LED TRAFFIC.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'LED TRAFFIC.axf'
+### ADS-LD Command File: 'LED TRAFFIC.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'LED TRAFFIC.lnp', Handle=0x00000DD4
+### Writing '.lnp' file
+### ADS-LD Command file 'LED TRAFFIC.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "led blinking2.o" --strict --scatter "LED Blinking2.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\LED Blinking2.map" -o "LED Blinking2.axf"

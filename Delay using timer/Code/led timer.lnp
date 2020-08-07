@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "led timer.o" --strict --scatter "led timer.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\led timer.map" -o "led timer.axf"
