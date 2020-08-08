@@ -44,7 +44,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\</OutputDirectory>
-          <OutputName>switch interface led</OutputName>
+          <OutputName>swtch</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>
@@ -396,9 +396,9 @@
               <FilePath>.\Startup.s</FilePath>
             </File>
             <File>
-              <FileName>switch interface led.c</FileName>
+              <FileName>swtch.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\switch interface led.c</FilePath>
+              <FilePath>.\swtch.c</FilePath>
             </File>
           </Files>
         </Group>
