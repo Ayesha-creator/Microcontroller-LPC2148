@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'led pmw.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"led pmw.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "led pmw.o" --strict --scatter "led pmw.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\led pmw.map" -o "led pmw.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'led pmw.axf'
+### ADS-LD Command File: 'led pmw.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'led pmw.lnp', Handle=0x000003DC
+### Writing '.lnp' file
+### ADS-LD Command file 'led pmw.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
