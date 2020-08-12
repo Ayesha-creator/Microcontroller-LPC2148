@@ -36,8 +36,5 @@ Otherwise the bit will be LOW.
 ### PWMMCR (PWM Match Control Register) 
 - It controls what action is to be taken on a match between the PWM Match Registers and PWM Timer Counter.
 
-### PWMPCR (PWM Control Register) 
-- It is used to enable and select each type of PWM.
-
 ### PWMLER (PWM Latch Enable Register) 
 - It is used to control the update of the PWM Match Registers when they are used for PWM generation.
